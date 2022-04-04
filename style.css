@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+  }
+
+body {
+    background-color: #4d3030;
+    font-family: 'Oxygen', sans-serif;
+}
+
+#containerMain {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-flow: row;
+}
+
+#containerText {
+    z-index: 30;
+    height: 100%;
+    width: 60%;
+    padding: 12%;
+    box-shadow: 4px -1px 34px -1px rgba(0,0,0,0.1);
+}
+
+#poemEntry {
+    background-color: transparent;
+    color: #ebebeb80;
+    border: none;
+    outline: none;
+    height: 100%;
+    width: 100%;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+::selection {
+    color: #EBEBEB;
+    background: #3F2727;
+}
+
+::-webkit-resizer {
+    border: solid #3F2727;
+    border-width: 0 2px 2px 0;
+    
+}
+
+::placeholder {
+    color: #714747;
+}
+
+.callLabel {
+    cursor: pointer;
+    margin: 0 0 10px 0;
+    text-align: right;
+}
+
+.arrow {
+    display: inline-block;
+    padding: 3px;
+    margin: 5px 12px;
+    transform: rotate(45deg);
+}
+
+.rhymeArrow {
+    border: solid #714747;
+    border-width: 0 3px 3px 0;
+}
+
+.relatedArrow {
+    border: solid #4d3030;
+    border-width: 0 3px 3px 0;
+}
+
+#containerRhyme {
+    z-index: 20;
+    /* box-shadow: 4px -1px 34px -1px rgba(0,0,0,0.2); */
+    background-color: #3F2727;
+    height: 100%;
+    width: 20%;
+    padding: 2%;
+    color: #714747;
+    font-size: 1.2em;
+}
+
+#rhymesList {
+    height: 95%;
+    overflow-y: scroll;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+#containerRelated {
+    background-color: #261717;
+    height: 100%;
+    width: 20%;
+    padding: 2%;
+    color: #4d3030;
+    font-size: 1.2em;
+}
+
+#relatedList {
+    height: 95%;
+    overflow-y: scroll;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhyme Writer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="containerMain">
+        <div id="containerText">
+            <textarea name="poemEntry" id="poemEntry" cols="30" rows="10" placeholder='1. Type Here&#10;&#10;2. Highlight any word&#10;&#10;3. Click "Rhymes" or "Synonyms"'></textarea>
+        </div>
+        <div id="containerRhyme">
+            <h2 id="rhymesCall" class="callLabel"><span class="arrow rhymeArrow"></span>Rhymes</h2>
+            <div id="rhymesList"></div>
+        </div>
+        <div id="containerRelated">
+            <h2 id="relatedCall" class="callLabel"><span class="arrow relatedArrow"></span>Synonyms</h2>
+            <div id="relatedList"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
