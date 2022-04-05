@@ -55,23 +55,25 @@ body {
     cursor: pointer;
     margin: 0 0 10px 0;
     text-align: right;
+    font-weight: lighter;
+    font-size: 2.5em;
 }
 
 .arrow {
     display: inline-block;
     padding: 3px;
-    margin: 5px 12px;
+    margin: 8px 12px;
     transform: rotate(45deg);
 }
 
 .rhymeArrow {
     border: solid #714747;
-    border-width: 0 3px 3px 0;
+    border-width: 0 2px 2px 0;
 }
 
 .relatedArrow {
     border: solid #4d3030;
-    border-width: 0 3px 3px 0;
+    border-width: 0 2px 2px 0;
 }
 
 #containerRhyme {
@@ -80,9 +82,8 @@ body {
     background-color: #3F2727;
     height: 100%;
     width: 20%;
-    padding: 2%;
+    padding: 1% 2%;
     color: #714747;
-    font-size: 1.2em;
 }
 
 #rhymesList {
@@ -90,15 +91,16 @@ body {
     overflow-y: scroll;
     text-align: center;
     line-height: 1.5em;
+    font-size: 1.5em;
+    font-weight: lighter;
 }
 
 #containerRelated {
     background-color: #261717;
     height: 100%;
     width: 20%;
-    padding: 2%;
+    padding: 1% 2%;
     color: #4d3030;
-    font-size: 1.2em;
 }
 
 #relatedList {
@@ -106,6 +108,8 @@ body {
     overflow-y: scroll;
     text-align: center;
     line-height: 1.5em;
+    font-size: 1.5em;
+    font-weight: lighter;
 }
 
 ::-webkit-scrollbar {
