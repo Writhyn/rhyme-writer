@@ -67,12 +67,12 @@ body {
 }
 
 .rhymeArrow {
-    border: solid #714747;
+    border: solid #643f3f;
     border-width: 0 2px 2px 0;
 }
 
 .relatedArrow {
-    border: solid #4d3030;
+    border: solid #4b2f2f;
     border-width: 0 2px 2px 0;
 }
 
@@ -83,7 +83,7 @@ body {
     height: 100%;
     width: 20%;
     padding: 1% 2%;
-    color: #714747;
+    color: #643f3f;
 }
 
 #rhymesList {
@@ -100,7 +100,7 @@ body {
     height: 100%;
     width: 20%;
     padding: 1% 2%;
-    color: #4d3030;
+    color: #4b2f2f;
 }
 
 #relatedList {
