@@ -48,10 +48,8 @@ document.querySelector("#relatedCall").onclick = () => {
     }
 }
 
-document.querySelector("#poemEntry").addEventListener("mouseup", () => {
+document.querySelectorAll(".selToRhyme").forEach(item => {
+    item.addEventListener("mouseup", () => {
     activeWord = window.getSelection().toString().trim();
-})
-
-document.querySelector("#relatedList").addEventListener("mouseup", () => {
-    activeWord = window.getSelection().toString().trim();
+    })
 })
