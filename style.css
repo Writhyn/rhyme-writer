@@ -22,7 +22,7 @@ body {
     height: 100%;
     width: 60%;
     padding: 12%;
-    box-shadow: 4px -1px 34px -1px rgba(0,0,0,0.1);
+    box-shadow: 8px 0px 29px -8px rgba(0,0,0,0.20);
 }
 
 #poemEntry {
@@ -76,7 +76,7 @@ body {
 
 #containerRhyme {
     z-index: 20;
-    /* box-shadow: 4px -1px 34px -1px rgba(0,0,0,0.2); */
+    box-shadow: 8px 0px 29px -8px rgba(0,0,0,0.20);
     background-color: #3F2727;
     height: 100%;
     width: 20%;

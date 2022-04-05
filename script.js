@@ -51,3 +51,7 @@ document.querySelector("#relatedCall").onclick = () => {
 document.querySelector("#poemEntry").addEventListener("mouseup", () => {
     activeWord = window.getSelection().toString().trim();
 })
+
+document.querySelector("#relatedList").addEventListener("mouseup", () => {
+    activeWord = window.getSelection().toString().trim();
+})
